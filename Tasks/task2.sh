@@ -9,3 +9,17 @@
 # Put 2 files in each folder.
 
 # Proof: ls -R shows the tree.
+
+# .:
+# company
+
+# ./company:
+# log  private  public
+
+# ./company/log:
+# log1.txt  log2.txt
+
+# ./company/private:
+# index.html  server.js  style.css
+
+# ./company/public:

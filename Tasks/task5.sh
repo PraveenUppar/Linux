@@ -3,4 +3,4 @@
 
 # Proof: Test as both users.
 
-# Bonus: Explain in your own words why chmod 750 is safer than chmod 777.
+
