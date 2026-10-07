@@ -1,0 +1,44 @@
+Ubuntu Linux Revision - Key Concepts
+======================================
+
+Linux is an open-source operating system used on most servers, cloud platforms, and DevOps tools.
+Ubuntu is the most popular Linux distribution (distro) for beginners and servers.
+
+As a developer, you need Linux because:
+- Most servers run Linux (AWS, Azure, DigitalOcean, etc.)
+- Docker containers run Linux inside them
+- CI/CD pipelines run on Linux
+- Many developer tools are built for Linux first
+- WSL (Windows Subsystem for Linux) lets you use Linux on Windows
+
+Key Terminology:
+- Terminal        → Text-based interface to interact with the OS (also called CLI)
+- Shell           → Program that processes commands (bash is the default on Ubuntu)
+- Command         → An instruction you type in the terminal (e.g., ls, cd, mkdir)
+- Root (/)        → The top-level directory (like C:\ on Windows)
+- Home (~)        → Your user's folder (/home/username)
+- sudo            → Run a command as administrator (superuser do)
+- Package         → A software bundle you can install (like npm packages, but for the OS)
+- Process         → A running program
+- Daemon/Service  → A background process (like a server)
+
+Linux vs Windows:
+- Linux: / (root), /home/user, case-sensitive, bash shell, apt install
+- Windows: C:\, C:\Users\user, case-insensitive, PowerShell/CMD, choco/winget install
+
+Linux Learning Path:
+1. Terminal basics: pwd, whoami, clear, history, man
+2. Navigation: cd, ls, absolute vs relative paths
+3. Files & directories: touch, mkdir, cp, mv, rm
+4. Viewing files: cat, less, head, tail, wc
+5. File permissions: chmod, chown, rwx, octal
+6. Text processing: grep, find, sort, uniq, cut
+7. Redirection & pipes: >, >>, |, tee, /dev/null
+8. Users & groups: sudo, adduser, usermod, groups
+9. Processes: ps, top, kill, background jobs
+10. Package management: apt, snap, dpkg
+11. Networking: ping, curl, wget, ssh, scp, ports
+12. Environment variables: export, PATH, .bashrc, alias
+13. Disk & storage: df, du, tar, gzip, zip
+14. Shell scripting: variables, if/else, loops, functions
+15. Cron & services: crontab, systemctl, journalctl
